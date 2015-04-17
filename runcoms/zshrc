@@ -10,4 +10,22 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+
+# Bindings
+set -o vi
+bindkey 'jk' vi-cmd-mode
+bindkey "^R" history-incremental-search-backward
+
+# Aliases
+LS_STRING="ls --ignore='lost+found' --color=auto"
+alias ls="$LS_STRING"
+alias sl="$LS_STRING"
+alias dev='export NODE_ENV=development; echo "\$NODE_ENV=development"'
+alias prod='export NODE_ENV=production; echo "\$NODE_ENV=production"'
+alias vi='vim'
+alias tmu='tmux'
+alias gp='git push'
+alias rm='nocorrect rm'
+
+
+[[ -s "/home/slee2/.gvm/scripts/gvm" ]] && source "/home/slee2/.gvm/scripts/gvm"
