@@ -25,7 +25,6 @@ export PAGER='less'
 # Other environmental variable
 #
 
-export PALETTE_DIR="$HOME/webpack/"
 export GOPATH="$HOME/.gocode/"
 
 #
@@ -55,6 +54,7 @@ path=(
   /opt/ghc/7.10.1/bin
   $HOME/.bin
   $HOME/.cabal/bin
+  $HOME/.anaconda/bin
   $path
 )
 

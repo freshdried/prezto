@@ -21,7 +21,4 @@
 #     print
 #   fi
 # fi
-clear
-if [[ $opensesame == "true" ]]; then
-    xinit
-fi
+#clear

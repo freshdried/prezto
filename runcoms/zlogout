@@ -6,4 +6,4 @@
 #
 
 # Print the message.
-echo "bye bye\!" | cowsay
+# echo "bye bye\!" | cowsay

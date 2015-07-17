@@ -27,10 +27,9 @@ alias tmu='tmux'
 alias gp='git push'
 alias rm='nocorrect rm'
 alias startx='cowsay "you mean xinit?"'
-alias node='nodejs'
 alias gpg="/usr/bin/gpg2"
-# alias ectool='sudo ectool --interface=lpc --name=cros_ec'
-# alias lightbar='sudo ectool --interface=lpc --name=cros_ec lightbar'
+alias git="hub"
+alias python="python3"
 
 
 [[ -s "/home/slee2/.gvm/scripts/gvm" ]] && source "/home/slee2/.gvm/scripts/gvm"
