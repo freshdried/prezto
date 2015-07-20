@@ -53,6 +53,7 @@ path=(
   /opt/cabal/1.22/bin
   /opt/ghc/7.10.1/bin
   $HOME/.bin
+  $HOME/.local/bin
   $HOME/.cabal/bin
   $HOME/.anaconda/bin
   $path
