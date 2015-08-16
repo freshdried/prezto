@@ -17,9 +17,9 @@ bindkey 'jk' vi-cmd-mode
 bindkey "^R" history-incremental-search-backward
 
 # Aliases
-LS_STRING="ls --ignore='lost+found' --color=auto"
-alias ls="$LS_STRING"
-alias sl="$LS_STRING"
+# LS_STRING="ls --ignore='lost+found' --color=auto"
+# alias ls="$LS_STRING"
+# alias sl="$LS_STRING"
 alias dev='export NODE_ENV=development; echo "\$NODE_ENV=development"'
 alias prod='export NODE_ENV=production; echo "\$NODE_ENV=production"'
 alias vi='vim'
