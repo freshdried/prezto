@@ -33,3 +33,10 @@ alias python="python3"
 
 
 [[ -s "/home/slee2/.gvm/scripts/gvm" ]] && source "/home/slee2/.gvm/scripts/gvm"
+
+# set overwrite of files during piping
+setopt CLOBBER
+unsetopt AUTO_CD
+
+# source z
+. $HOME/.bin/z.sh

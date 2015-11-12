@@ -55,7 +55,7 @@ path=(
   $HOME/.bin
   $HOME/.local/bin
   $HOME/.cabal/bin
-  $HOME/.anaconda/bin
+  $HOME/anaconda3/bin
   $HOME/Applications/SuperCollider/SuperCollider.app/Contents/MacOS
   $path
 )
