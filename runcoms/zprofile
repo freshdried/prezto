@@ -49,14 +49,12 @@ typeset -gU cdpath fpath mailpath path
 
 # Set the list of directories that Zsh searches for programs.
 path=(
-  /usr/local/{bin,sbin}
-  /opt/cabal/1.22/bin
-  /opt/ghc/7.10.1/bin
   $HOME/.bin
   $HOME/.local/bin
   $HOME/.cabal/bin
+  $HOME/.nix-profile/bin
   $HOME/anaconda3/bin
-  $HOME/Applications/SuperCollider/SuperCollider.app/Contents/MacOS
+  /usr/local/{bin,sbin}
   $path
 )
 

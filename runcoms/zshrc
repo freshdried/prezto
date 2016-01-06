@@ -22,14 +22,15 @@ bindkey "^R" history-incremental-search-backward
 # alias sl="$LS_STRING"
 alias dev='export NODE_ENV=development; echo "\$NODE_ENV=development"'
 alias prod='export NODE_ENV=production; echo "\$NODE_ENV=production"'
-alias vi='vim'
+alias vi='nvim'
+alias vim='nvim'
 alias tmu='tmux'
 alias gp='git push'
 alias rm='nocorrect rm'
 alias startx='cowsay "you mean xinit?"'
 alias gpg="/usr/bin/gpg2"
 alias git="hub"
-alias python="python3"
+#alias python="python3"
 
 
 [[ -s "/home/slee2/.gvm/scripts/gvm" ]] && source "/home/slee2/.gvm/scripts/gvm"
@@ -40,3 +41,8 @@ unsetopt AUTO_CD
 
 # source z
 . $HOME/.bin/z.sh
+
+
+echo "    most frecent directories:\n"
+z | tail -n 8
+echo
