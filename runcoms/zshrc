@@ -20,7 +20,7 @@ alias vim='nvim'
 alias gp='git push'
 alias rm='nocorrect rm'
 #alias gpg="/usr/bin/gpg2"
-#alias git="hub"
+alias git="hub"
 
 
 [[ -s "/home/slee2/.gvm/scripts/gvm" ]] && source "/home/slee2/.gvm/scripts/gvm"
