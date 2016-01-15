@@ -4,65 +4,7 @@
 # Authors:
 #   Sorin Ionescu <sorin.ionescu@gmail.com>
 #
-
-#
-# Browser
-#
-
-if [[ "$OSTYPE" == darwin* ]]; then
-  export BROWSER='open'
-fi
-
-#
-# Editors
-#
-
-# export EDITOR='vim'
-# export VISUAL='vim'
-export EDITOR='emacsclient'
-export VISUAL='emacsclient -c -a emacs'
-export PAGER='less'
-
-#
-# Other environmental variable
-#
-
-export GOPATH="$HOME/.gocode/"
-
-#
-# Language
-#
-
-if [[ -z "$LANG" ]]; then
-  export LANG='en_US.UTF-8'
-fi
-
-#
-# Paths
-#
-
-# Ensure path arrays do not contain duplicates.
-typeset -gU cdpath fpath mailpath path
-
-# Set the the list of directories that cd searches.
-# cdpath=(
-#   $cdpath
-# )
-
-# Set the list of directories that Zsh searches for programs.
-path=(
-  $HOME/.bin
-  $HOME/.local/bin
-  $HOME/.cabal/bin
-  $HOME/.nix-profile/bin
-  $HOME/anaconda3/bin
-  /usr/local/{bin,sbin}
-  $path
-)
-
-#
-# Less
-#
+. $HOME/.profile
 
 # Set the default Less options.
 # Mouse-wheel scrolling has been disabled by -X (disable screen clearing).
