@@ -34,6 +34,11 @@ alias git="hub"
 alias ns="nix-shell --run"
 alias nse="nix-shell --run emacs &"
 
+export SC_JACK_DEFAULT_INPUTS="system:capture_1,system:capture_2"
+export SC_JACK_DEFAULT_OUTPUTS="system:playback_1,system:playback_2"
+
+alias scsynth="scsynth -u 57110"
+
 [[ -s "/home/slee2/.gvm/scripts/gvm" ]] && source "/home/slee2/.gvm/scripts/gvm"
 
 # set overwrite of files during piping
