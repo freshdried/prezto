@@ -1,8 +1,8 @@
-if [[ -n "$TERM_TRANS_TO" ]]; then
-  transset-df -a "$TERM_TRANS_TO">/dev/null
-else
-  [[ "$TERM" == "rxvt-unicode-256color" ]] && transset-df -a 0.9>/dev/null
-fi
+# if [[ -n "$TERM_TRANS_TO" ]]; then
+#   transset-df -a "$TERM_TRANS_TO">/dev/null
+# else
+#   [[ "$TERM" == "rxvt-unicode-256color" ]] && transset-df -a 0.9 >/dev/null
+# fi
 
 # Source Prezto.
 if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
