@@ -1,4 +1,4 @@
-#
+
 # Executes commands at login pre-zshrc.
 #
 # Authors:
@@ -54,6 +54,7 @@ path=(
   $HOME/.cabal/bin
   $HOME/.nix-profile/bin
   $HOME/anaconda3/bin
+  /Applications/Postgres.app/Contents/Versions/9.5/bin
   /usr/local/{bin,sbin}
   $path
 )
