@@ -30,7 +30,7 @@ alias vim='nvim'
 alias gp='git push'
 alias rm='nocorrect rm'
 #alias gpg="/usr/bin/gpg2"
-# alias git="hub"
+alias git="hub"
 alias sl="ls"
 alias ns="nix-shell --run"
 alias nse="nix-shell --run emacs &"
@@ -54,3 +54,6 @@ unsetopt AUTO_CD
 echo "    most frecent directories:\n"
 z | tail -n 8
 echo
+
+# OPAM configuration
+. /home/slee2/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
