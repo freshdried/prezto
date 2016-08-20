@@ -15,4 +15,4 @@
 	url = https://github.com/agnoster/agnoster-zsh-theme.git
 [submodule "modules/prompt/functions/pure"]
 	path = modules/prompt/external/pure
-	url = https://github.com/sleep/pure.git
+	url = git@github.com:sleexyz/pure.git
