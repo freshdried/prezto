@@ -34,6 +34,7 @@ alias git="hub"
 alias sl="ls"
 alias ns="nix-shell --run"
 alias nse="nix-shell --run emacs &"
+alias -g .gc='--fast --ghc-options="-Wall -j +RTS -A1024m -n2m -RTS"'
 
 export SC_JACK_DEFAULT_INPUTS="system:capture_1,system:capture_2"
 export SC_JACK_DEFAULT_OUTPUTS="system:playback_1,system:playback_2"
